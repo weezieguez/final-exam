@@ -1,3 +1,28 @@
 *{
 box-sizing: border-box;
 }
+body {
+  background-color: darkgreen;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media(min-width:500px) {
+.container {
+  overflow:auto;
+  background-color: white;
+  margin: 0 auto;
+  max-width: 700px;
+}
+}
+
+.first-column {
+  float: left;
+  width: 75%;
+}
+.second-column {
+  float: right;
+  width: 25%;
+}
